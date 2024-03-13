@@ -412,12 +412,40 @@
             </li>
         </ul>
         </div>
+        
+        <div class="footer-form">
+            <p class="footer-form-p">
+            Subscribe
+            </p>
+            <form class="footer-form-form">
+                <label class="footer-form-label" for="e-mail">
+                <input class="footer-form-input" 
+                type="email" 
+                name="e-mail" 
+                id="e-mail"
+                title="E-mail"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄ'@0-9]+"
+                placeholder="E-mail"
+
+                required
+                >
+                </label>
+                <button class="footer-form-btn" type="submit">Subscribe
+                <svg class="footer-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-frame-3"></use>
+                </svg>
+                </button>
+                
+            </form>
+
+        </div>
+
         </div>
     </footer>
 
     <!-- Modal-->
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="modal-close-icon" width="8" height="8" aria-label="close-icon">
