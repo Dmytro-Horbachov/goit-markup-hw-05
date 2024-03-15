@@ -777,6 +777,9 @@ gap: 40px;
 .review-form-wrapper {
     margin-bottom: 8px;
 }
+.review-form-wrapper-margin-bottom {
+    margin-bottom: 16px;
+}
 
 .review-form-label {
     display: block;
