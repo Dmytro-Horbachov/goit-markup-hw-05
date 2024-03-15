@@ -775,7 +775,7 @@ gap: 40px;
 .review-form {}
 
 .review-form-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .review-form-label {
@@ -846,7 +846,7 @@ gap: 40px;
 }
 
 .review-form-checkbox {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .review-form-checkbox-privacy {}
