@@ -104,6 +104,7 @@ body {
 {
         font-weight: 500;
         font-size: 16px;
+        padding: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
@@ -714,6 +715,7 @@ gap: 40px;
 
 .modal {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(1);
